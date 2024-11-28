@@ -56,3 +56,4 @@ yarn.lock
 .eslintcache
 .node_repl_history
 Last edited 
+.env
