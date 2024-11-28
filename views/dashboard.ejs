@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <div class="user-info">
+                <span id="username"></span>
+                <button id="logout-btn" class="btn btn-logout">Logout</button>
+            </div>
+        </header>
+
+        <div class="weather-search">
+            <input type="text" id="city-search" placeholder="Enter city name">
+            <button id="search-btn" class="btn">Search</button>
+        </div>
+
+        <div id="weather-display" class="weather-display">
+            <div class="weather-card">
+                <h2 id="city-name">-</h2>
+                <div class="temperature">
+                    <span id="temp">-</span>°C
+                </div>
+                <div class="weather-details">
+                    <p>Humidity: <span id="humidity">-</span>%</p>
+                    <p>Wind Speed: <span id="wind-speed">-</span> km/h</p>
+                    <p>Description: <span id="weather-description">-</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
